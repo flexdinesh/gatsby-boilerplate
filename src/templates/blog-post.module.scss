@@ -1,0 +1,50 @@
+@import '@styles/_theme.scss';
+
+.title {
+  margin: 0;
+}
+
+.date {
+  color: $textAlternate;
+  font-style: italic;
+  font-size: 0.875rem;
+  margin: 0.25rem 0;
+}
+
+.content {
+  margin: 1.5rem 0;
+  line-height: 1.8;
+
+  pre {
+    padding: 1rem;
+
+    code {
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  blockquote {
+    font-size: 0.875rem;
+    font-style: italic;
+    background: #f9f9f9;
+    border-left: 6px solid #ccc;
+    margin: 1.5rem;
+    padding: 1rem;
+    quotes: '\201C' '\201D' '\2018' '\2019';
+
+    &:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25rem;
+      vertical-align: -0.4em;
+    }
+
+    p {
+      display: inline;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import '@styles/_theme.scss';
+@import '@styles/_mixins.scss';
+
+html {
+  font-family: 'Ubuntu', 'Helvetica Neue', 'Arial', 'sans-serif';
+  @include smooth-font;
+  @include font-size-reset;
+  color: $textPrimary;
+}
+
+body {
+  color: $textPrimary;
+  line-height: 1.6;
+}
+
+a {
+  color: $colorPrimary;
+  text-decoration: none;
+}
+
+// markdown override
+div p img {
+  display: block;
+  margin: auto;
+  max-width: 75%;
+}

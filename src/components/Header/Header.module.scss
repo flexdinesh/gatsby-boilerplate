@@ -1,0 +1,32 @@
+@import '@styles/_theme.scss';
+
+.header {
+  height: $headerHeight;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  height: $headerHeight;
+  font-size: 0.875rem;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+
+  .menu-item {
+    color: $colorPrimary;
+    margin: 0 0.5rem;
+    justify-content: flex-end;
+    padding-bottom: 0.25rem;
+
+    &:hover {
+      box-shadow: 0 1.5px 0 0 currentColor;
+    }
+  }
+}
+
+.title {
+  margin: 0;
+}

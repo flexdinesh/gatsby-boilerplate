@@ -1,0 +1,56 @@
+{
+  "name": "dinesh-pandiyan-gatsby-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Gatsby Starter | Dinesh Pandiyan",
+  "keywords": [
+    "developer",
+    "javascript",
+    "portfolio",
+    "react"
+  ],
+  "license": "MIT",
+  "author": "Dinesh Pandiyan <flexdinesh@gmail.com>",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "rm -rf public .cache",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "serve:build": "npm run clean && npm run build && http-server ./public",
+    "start": "npm run develop",
+    "start:prod": "npm run build && npm run serve:build",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.12",
+    "@fortawesome/free-brands-svg-icons": "^5.6.3",
+    "@fortawesome/free-regular-svg-icons": "^5.6.3",
+    "@fortawesome/free-solid-svg-icons": "^5.6.3",
+    "@fortawesome/react-fontawesome": "^0.1.3",
+    "gatsby": "^2.0.76",
+    "gatsby-image": "^2.0.20",
+    "gatsby-plugin-google-analytics": "^2.0.9",
+    "gatsby-plugin-manifest": "^2.0.9",
+    "gatsby-plugin-offline": "^2.0.16",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sharp": "^2.0.14",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^2.0.8",
+    "gatsby-transformer-javascript-frontmatter": "^2.0.5",
+    "gatsby-transformer-remark": "^2.1.19",
+    "gatsby-transformer-sharp": "^2.1.8",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.18",
+    "typography": "^0.16.18"
+  },
+  "devDependencies": {
+    "gatsby-plugin-sass": "^2.0.7",
+    "gh-pages": "^2.0.1",
+    "http-server": "^0.11.1",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.15.2"
+  }
+}
