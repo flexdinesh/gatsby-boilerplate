@@ -2,15 +2,20 @@
 @import '@styles/_mixins.scss';
 
 html {
-  font-family: 'Ubuntu', 'Helvetica Neue', 'Arial', 'sans-serif';
+  font-family: 'Helvetica Neue', 'sans-serif';
   @include smooth-font;
   @include font-size-reset;
   color: $textPrimary;
+  background-color: $colorBG;
 }
 
 body {
+  font-family: 'Helvetica Neue', 'sans-serif';
+  @include smooth-font;
+  @include font-size-reset;
   color: $textPrimary;
   line-height: 1.6;
+  background-color: $colorBG;
 }
 
 a {

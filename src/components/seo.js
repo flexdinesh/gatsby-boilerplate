@@ -87,6 +87,7 @@ SEO.propTypes = {
 
 export default SEO
 
+// moustache.png will be set as link preview image
 const detailsQuery = graphql`
   query DefaultSEOQuery {
     site {
@@ -98,7 +99,7 @@ const detailsQuery = graphql`
       }
     }
     allFile(
-      filter: { sourceInstanceName: { eq: "images" }, name: { eq: "man" } }
+      filter: { sourceInstanceName: { eq: "images" }, name: { eq: "moustache" } }
     ) {
       edges {
         node {

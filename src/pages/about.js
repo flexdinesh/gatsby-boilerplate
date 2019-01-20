@@ -8,13 +8,13 @@ const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <h1>About me</h1>
-    <p>The content for this page isn't ready yet. 🤷‍♂️</p>
+    <p>Content for about section goes here 🥳</p>
     <p>
-      You gotta make do with&nbsp;
+      You can go back&nbsp;
       <span>
         <Link to="/">home</Link>
-      </span>{' '}
-      for now.
+      </span>
+      .
     </p>
   </Layout>
 )
