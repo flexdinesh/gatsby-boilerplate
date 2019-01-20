@@ -4,7 +4,7 @@ module.exports = {
     description: `A good description that will show up in Google Search`,
     author: `@flexdinesh`,
     fullName: `Dinesh Pandiyan`,
-    twitterHandle: `https://twiter.com/flexdinesh`,
+    twitterHandle: `https://twitter.com/flexdinesh`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
