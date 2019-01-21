@@ -1,6 +1,15 @@
 # Gatsby-Starter | Dinesh Pandiyan
 
-A starter template for gatsby projects setup with sass, blogs, static data loading, google fonts, webpack alias config, basic layout, css reset and optimized font loading.
+A gatsby starter template setup with best practices and provides great development experience. 
+
+- SASS
+- CSS Modules
+- Blog
+- Static File-Based Data Loading
+- Optimized Font Load with Google Fonts
+- Custom Webpack Config
+- Responsive Base Layout
+- Unit Tests with Jest and Enzyme
 
 ## License
 
