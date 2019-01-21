@@ -48,17 +48,6 @@ module.exports = {
         icon: `src/images/moustache.png`, // This path is relative to the root of the site.
       },
     },
-    /*{
-    // google-font
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Ubuntu:400,700:latin'],
-        },
-      },
-    },
-    },*/
     `gatsby-plugin-sass`,
     /*
     // google-analytics

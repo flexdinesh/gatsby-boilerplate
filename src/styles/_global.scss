@@ -2,6 +2,7 @@
 @import '@styles/_mixins.scss';
 
 html {
+  // add site level custom font here, if applicable
   font-family: 'Helvetica Neue', 'sans-serif';
   @include smooth-font;
   @include font-size-reset;
@@ -10,6 +11,7 @@ html {
 }
 
 body {
+  // add site level custom font here, if applicable
   font-family: 'Helvetica Neue', 'sans-serif';
   @include smooth-font;
   @include font-size-reset;
